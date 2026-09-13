@@ -1,0 +1,19 @@
+# ============================================================
+#  DeepSeek Harness 安装器 / .gitignore
+# ============================================================
+
+# ---- 打包产物 ----
+# DSH安装器.exe 是 0.9 MB 的二进制，由 build/build-exe.ps1 编译生成。
+# 需要 exe 时本地执行一次即可（脚本版 一键安装DSH.bat + DSHInstaller.ps1 无需编译）。
+*.exe
+
+# ---- 安装器运行过程中产生的临时文件 ----
+*.status
+*.out
+*.err
+
+# ---- Windows 系统文件 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
